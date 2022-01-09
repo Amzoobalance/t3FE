@@ -22,7 +22,7 @@ frameworkVersion: "2"
 
 provider:
   name: aws
-  region: eu-north-1
+  region: us-east-1
   runtime: nodejs12.x
 
 plugins:
@@ -30,7 +30,7 @@ plugins:
 
 custom:
   client:
-    bucketName: elaquak
+    bucketName: elaquak-s3
     distributionFolder: build
 
   # lambdaHashingVersion: 20201221
